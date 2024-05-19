@@ -1,0 +1,26 @@
+.topright {
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #e5d85e;
+  border-radius: 60% 0% 55% 100%;
+}
+
+h2 {
+  font-weight: 600;
+  padding-left: 5%;
+  font-size: xxx-large;
+}
+
+.heading {
+  margin-top: 80%;
+}
+
+.bmbtn {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+}
