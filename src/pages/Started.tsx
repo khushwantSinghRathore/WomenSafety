@@ -13,6 +13,7 @@ const Started: React.FC = () => {
             <h2>community</h2>
           </div>
         </div>
+
         <div className="bmbtn">
           <IonButton shape="round" color={"dark"} expand="full" size="large">
             Get started <IonIcon name="arrow-forward"></IonIcon>

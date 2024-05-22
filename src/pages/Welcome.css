@@ -1,0 +1,46 @@
+.logo {
+  margin-top: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.head1 {
+  font-size: x-large;
+  font-weight: 500;
+  margin: 0%;
+  padding-bottom: 2%;
+}
+.head2 {
+  font-size: xxx-large;
+  font-weight: 700;
+  margin: 0%;
+}
+
+.btn {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.privacy {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.grey {
+  color: #1c1a1a;
+}
+
+.blue {
+  color: #0f62ae;
+}
+
+.input {
+  width: 90%;
+  margin: 5%;
+}

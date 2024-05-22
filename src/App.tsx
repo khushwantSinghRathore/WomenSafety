@@ -33,6 +33,7 @@ import "@ionic/react/css/palettes/dark.system.css";
 /* Theme variables */
 import "./theme/variables.css";
 import Started from "./pages/Started";
+import Welcome from "./pages/Welcome";
 
 setupIonicReact();
 
@@ -44,10 +45,13 @@ const App: React.FC = () => (
           <Home />
         </Route>
         <Route exact path="/">
-          <Redirect to="/started" />
+          <Redirect to="/welcome" />
         </Route>
         <Route exact path="/started">
           <Started />
+        </Route>
+        <Route exact path="/welcome">
+          <Welcome />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
