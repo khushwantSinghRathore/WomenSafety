@@ -14,7 +14,8 @@ h2 {
   font-size: xxx-large;
 }
 
-.heading {
+.heading1 {
+  text-align: left;
   margin-top: 80%;
 }
 

@@ -8,8 +8,10 @@ import {
 } from "@ionic/react";
 import "./Welcome.css";
 import lock from "./../assets/logo_lock.png";
+import { useHistory } from "react-router-dom";
 
 const Welcome: React.FC = () => {
+  const history = useHistory();
   return (
     <IonPage>
       <IonContent>
@@ -32,6 +34,10 @@ const Welcome: React.FC = () => {
             shape="round"
             expand="block"
             size="large"
+            onClick={(e) => {
+              e.preventDefault();
+              history.push("otp");
+            }}
           >
             Get OTP
           </IonButton>

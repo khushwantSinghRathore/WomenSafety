@@ -46,7 +46,7 @@ const App: React.FC = () => (
           <Home />
         </Route>
         <Route exact path="/">
-          <Redirect to="/otp" />
+          <Redirect to="/started" />
         </Route>
         <Route exact path="/started">
           <Started />
