@@ -1,3 +1,27 @@
 .logotop {
   margin-top: 20%;
 }
+
+.timer {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.head1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: medium;
+
+  p {
+    font-weight: 400;
+    font-size: small;
+    color: grey;
+  }
+}
+
+.rowctr {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
