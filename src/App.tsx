@@ -37,6 +37,8 @@ import Welcome from "./pages/Welcome";
 import Otp from "./pages/Otp";
 import Createacc from "./pages/Createacc";
 import Emergency from "./pages/Emergency";
+import Permission from "./pages/Permission";
+import Verification from "./pages/Verification";
 
 setupIonicReact();
 
@@ -61,6 +63,12 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/emergency">
           <Emergency></Emergency>
+        </Route>
+        <Route exact path="/permission">
+          <Permission></Permission>
+        </Route>
+        <Route exact path="/verification">
+          <Verification></Verification>
         </Route>
         <Route exact path="/welcome">
           <Welcome />

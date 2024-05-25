@@ -1,4 +1,5 @@
 import {
+  IonButton,
   IonContent,
   IonIcon,
   IonInput,
@@ -9,9 +10,11 @@ import {
   IonSelectOption,
 } from "@ionic/react";
 import "./Createacc.css";
+import { useHistory } from "react-router-dom";
 import { chevronBack } from "ionicons/icons";
 
 const Createacc: React.FC = () => {
+  const history = useHistory();
   return (
     <IonPage>
       <IonContent>
@@ -47,6 +50,20 @@ const Createacc: React.FC = () => {
               </IonSelect>
             </IonItem>
           </IonList>
+        </div>
+        <div className="bmbtn">
+          <IonButton
+            shape="round"
+            color={"dark"}
+            expand="full"
+            size="large"
+            onClick={(e) => {
+              e.preventDefault();
+              history.push("emergency");
+            }}
+          >
+            Next
+          </IonButton>
         </div>
       </IonContent>
     </IonPage>

@@ -1,0 +1,15 @@
+ion-card {
+  width: 90%;
+  margin-left: 5%;
+  padding: 5%;
+}
+
+.titlename {
+  font-size: x-large;
+  font-weight: 700;
+  vertical-align: baseline;
+}
+
+.tog {
+  text-align: end;
+}
