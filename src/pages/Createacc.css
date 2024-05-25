@@ -1,0 +1,17 @@
+.title {
+  font-size: x-large;
+  font-weight: 600;
+
+  p {
+    margin: 0px;
+    margin-left: 6%;
+    margin-top: 5%;
+    font-size: 40px;
+  }
+}
+
+.backicn {
+  margin-left: 5%;
+  font-size: 36px;
+  margin-top: 10%;
+}

@@ -1,6 +1,7 @@
 import { IonButton, IonContent, IonIcon, IonPage } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import "./Started.css";
+import { arrowForward } from "ionicons/icons";
 
 const Started: React.FC = () => {
   const history = useHistory();
@@ -24,10 +25,10 @@ const Started: React.FC = () => {
             size="large"
             onClick={(e) => {
               e.preventDefault();
-              history.push("/welcome");
+              history.push("welcome");
             }}
           >
-            Get started <IonIcon name="arrow-forward"></IonIcon>
+            Get started <IonIcon icon={arrowForward}></IonIcon>
           </IonButton>
         </div>
       </IonContent>

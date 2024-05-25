@@ -9,6 +9,7 @@ import {
 import "./Welcome.css";
 import lock from "./../assets/logo_lock.png";
 import { useHistory } from "react-router-dom";
+import { flag } from "ionicons/icons";
 
 const Welcome: React.FC = () => {
   const history = useHistory();
@@ -24,7 +25,7 @@ const Welcome: React.FC = () => {
         </div>
         <div className="input">
           <IonItem>
-            <IonIcon name="flag" slot="start"></IonIcon>
+            <IonIcon icon={flag} slot="start"></IonIcon>
             <IonInput placeholder="Mobile Number"></IonInput>
           </IonItem>
         </div>

@@ -35,7 +35,7 @@ import "./theme/variables.css";
 import Started from "./pages/Started";
 import Welcome from "./pages/Welcome";
 import Otp from "./pages/Otp";
-import Createacc from "./pages/createacc";
+import Createacc from "./pages/Createacc";
 
 setupIonicReact();
 
@@ -52,11 +52,11 @@ const App: React.FC = () => (
         <Route exact path="/started">
           <Started />
         </Route>
+        <Route exact path="/createacc">
+          <Createacc></Createacc>
+        </Route>
         <Route exact path="/otp">
           <Otp />
-        </Route>
-        <Route exact path="/createacc">
-          <Createacc />
         </Route>
         <Route exact path="/welcome">
           <Welcome />
