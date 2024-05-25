@@ -1,0 +1,21 @@
+.title {
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 5%;
+
+  p {
+    margin: 0px;
+    margin-left: 8%;
+    font-size: 40px;
+  }
+}
+
+.note {
+  color: gray;
+  margin-left: 5%;
+  font-size: small;
+  span {
+    font-size: medium;
+    font-weight: 600;
+  }
+}

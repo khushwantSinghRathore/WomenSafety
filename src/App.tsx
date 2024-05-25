@@ -36,6 +36,7 @@ import Started from "./pages/Started";
 import Welcome from "./pages/Welcome";
 import Otp from "./pages/Otp";
 import Createacc from "./pages/Createacc";
+import Emergency from "./pages/Emergency";
 
 setupIonicReact();
 
@@ -57,6 +58,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/otp">
           <Otp />
+        </Route>
+        <Route exact path="/emergency">
+          <Emergency></Emergency>
         </Route>
         <Route exact path="/welcome">
           <Welcome />
